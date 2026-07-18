@@ -431,19 +431,27 @@ h1 .vice {
 
 @media (max-width: 720px) {
   .hero-shell {
-    padding: 14px 12px 24px;
+    padding: 10px 10px 20px;
   }
 
   .hero-card {
-    padding: 18px;
+    padding: 16px;
   }
 
   h1 {
-    font-size: clamp(2.35rem, 8vw, 3.7rem);
+    font-size: clamp(2.8rem, 12vw, 4.2rem);
+    line-height: 0.95;
+    margin-top: 2px;
+  }
+
+  .eyebrow {
+    margin-bottom: 8px;
+    font-size: 0.72rem;
   }
 
   .tagline {
-    font-size: 0.98rem;
+    font-size: 0.96rem;
+    margin-top: 12px;
   }
 
   .gallery-panel {
