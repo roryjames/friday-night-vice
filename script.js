@@ -23,7 +23,7 @@ if (slides.length) {
     'images/images.jpg',
     'images/images-1.jpg',
     'images/images-2.jpg',
-    'images/images-3.jpg'
+    'images/images-4.jpg'
   ];
 
   slides.forEach((slide, index) => {
