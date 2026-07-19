@@ -27,7 +27,9 @@ if (slides.length) {
   ];
 
   slides.forEach((slide, index) => {
-    slide.src = slideFiles[index % slideFiles.length];
+    const file = slideFiles[index % slideFiles.length];
+    slide.src = file;
+    slide.alt = `Rock gallery image ${index + 1}`;
   });
 
   let currentSlide = 0;
