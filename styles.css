@@ -15,7 +15,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Arial Black", Impact, Haettenschweiler, "Franklin Gothic Bold", sans-serif;
+  font-family: "Oswald", "Arial Narrow", Impact, Haettenschweiler, "Franklin Gothic Bold", sans-serif;
   color: var(--text);
   background:
     radial-gradient(circle at top left, rgba(255, 46, 165, 0.24), transparent 24%),
@@ -100,6 +100,8 @@ body::before {
   font-size: 0.85rem;
   letter-spacing: 0.34em;
   text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
   color: var(--yellow);
 }
 
@@ -108,7 +110,8 @@ h1 {
   font-size: clamp(3.1rem, 7vw, 5.8rem);
   line-height: 0.9;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
+  font-family: "Bebas Neue", "Anton", "Oswald", sans-serif;
   text-shadow: 0 0 8px rgba(255, 46, 165, 0.6), 0 0 24px rgba(0, 247, 255, 0.35);
   animation: pulse 2.6s ease-in-out infinite;
 }
@@ -143,9 +146,10 @@ h1 .vice {
   padding: 14px 18px;
   border-radius: 999px;
   text-decoration: none;
-  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
@@ -220,12 +224,17 @@ h1 .vice {
   font-size: 0.78rem;
   letter-spacing: 0.28em;
   text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
 }
 
 .panel h2,
 .panel h3 {
   margin: 0 0 8px;
   font-size: 1.4rem;
+  font-family: "Anton", "Bebas Neue", "Oswald", sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .panel p, .panel li {
@@ -417,11 +426,7 @@ h1 .vice {
 
 @media (max-width: 960px) {
   .hero-card {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-side {
-    order: -1;
+    grid-template-columns: 1fr; 
   }
 
   .info-grid {
