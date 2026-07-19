@@ -20,10 +20,10 @@ for (let i = 0; i < 24; i += 1) {
 
 if (slides.length) {
   const slideFiles = [
-    'images/slide-1.svg',
-    'images/slide-2.svg',
-    'images/slide-3.svg',
-    'images/slide-4.svg'
+    'images/images.jpg',
+    'images/images-1.jpg',
+    'images/images-2.jpg',
+    'images/images-3.jpg'
   ];
 
   slides.forEach((slide, index) => {
